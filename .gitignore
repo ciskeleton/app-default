@@ -1,0 +1,70 @@
+# Ignore files inside _dev folder(s)
+_dev
+*_dev.*
+
+# Ignore unnecessary folders
+.DS_Store
+.phpintel
+
+# Ignore some app config files
+/src/config/.environment
+/src/config/.installed
+/src/config/.options.cache.php
+/src/config/**/base_controller.php
+/src/config/**/config.php
+/src/config/**/database.php
+/src/config/**/language.php
+/src/config/**/trusted_hosts.php
+
+# Ignore all modules installed in app directory
+# See: ianhubnet/csk-packages/tree/main/packages/modules
+/src/modules/*
+
+# Ignore all plugins installed in app directory
+# See: ianhubnet/csk-packages/tree/main/packages/plugins
+/src/plugins/*
+
+# Ignore all files in storage except needed ones
+/src/storage/*
+!/src/storage/dist/
+!/src/storage/data/
+
+# Ignore dependency directory
+/vendor/
+
+# Ignore composer lock file
+/composer.lock
+
+# Ignore PHP CS Fixer cache
+/.php-cs-fixer.cache
+
+# Ignore Rector cache (if you use it)
+/rector.cache
+
+# Ignore logs and env files (just in case)
+*.log
+/.env
+
+# Sublime Text cache files
+*~
+*.bak
+*.bak.*
+*_bak*.*
+*.stTheme.cache
+*.sublime-*
+*.sublime-project
+*.sublime-workspace
+*.tmPreferences.cache
+*.tmlanguage.cache
+
+# IDE/editor configs
+/.idea/
+/.vscode/
+/*.code-workspace
+
+# Always keep these
+!**/.htaccess
+!**/.gitkeep
+!**/index.html
+!LICENSE.md
+!README.md
