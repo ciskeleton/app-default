@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Application Profiler Configuration
+ *
+ * This file overrides or extends the core profiler settings from Skeleton.
+ * Use this file to fine-tune what sections are shown during development profiling.
+ *
+ * @package    App\Config
+ * @author     Kader Bouyakoub <bkader[at]mail[dot]com>
+ * @copyright  Copyright (c) 2018-present, Kader Bouyakoub
+ * @since      0.0.1
+ */

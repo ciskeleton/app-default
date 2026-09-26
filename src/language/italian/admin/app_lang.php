@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * Dashboard Language File (Italian)
+ *
+ * Contains all translatable strings for the admin interface.
+ *
+ * Note: Strings should be grouped by context for easy maintenance.
+ *
+ * @package    App\Language
+ * @category   Admin
+ * @author     Kader Bouyakoub <bkader[at]mail[dot]com>
+ * @copyright  Copyright (c) 2018-present, Kader Bouyakoub
+ * @since      0.0.1
+ */
+
+$lang['menu_main'] = 'Menu Principale';
+$lang['menu_social'] = 'Menu Sociale';
+
+// Translated menu locations:
+$lang['menu_loc_main'] = 'Menu principale';
+$lang['menu_loc_footer'] = 'Menu in fondo';
+$lang['menu_loc_sidebar'] = 'Menu della barra laterale';
